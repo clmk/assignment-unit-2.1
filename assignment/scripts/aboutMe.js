@@ -29,12 +29,9 @@ pets += 2;
 const allowedPets = 4
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if( adventurous ){
-console.log('Adventures are great!')
-}
-else{
+adventurous ?
+console.log('Adventures are great!') :
     console.log('How about we stay home?')
-}
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
